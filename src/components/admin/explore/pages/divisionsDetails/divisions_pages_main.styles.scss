@@ -1,0 +1,275 @@
+.views_container {
+
+    border: 14px solid black;
+    max-width: 1080px; 
+    
+
+    & .bacgroundImage {
+        height: 270px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    & .header_title {
+        font-size: 40px;
+        color: white;
+        margin: auto;
+        padding: auto;
+        line-height: 200px;
+    }
+
+    & .section_one_wraper {
+            display: flex;
+
+           & .section_left  {
+            flex: 1;
+            margin: 2% 4%;
+            text-align: left;
+            height: 260px;
+            border-right: 5px solid green; 
+                img{
+                   height: 100%;
+                   margin-left: 28px;
+                }
+           }
+         
+
+           & .section_right {
+             flex:2;
+             margin: 2% 4%;
+             padding-top: 1%;
+             padding-left: 12%;
+             font-size: 20px;
+           
+             h3, h4 {
+                 text-align: left;
+             }
+            & .contact_card {
+                background: #F7F9FB;
+                box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+                border-radius: 4px 4px;
+                margin: 0px 8px;
+                width: 70%;
+          
+                padding: 5% 5%;
+                margin-left: 6%; 
+                text-align: left;
+                font-size: 20px;
+                color: black;
+             }
+
+           }
+
+    }
+
+    & .section_two { 
+        font-size: 20px; 
+        color:  #707070;
+        width: 100%;
+        text-align: left;
+       .p_1 , .p_2, p {
+           padding: 0.3rem 4%;
+           line-height: 2rem;
+       }
+    }
+
+   & .page_middle_img_one {
+    width: 100% ;
+    height: 360px;
+    padding:4%;   
+    background-size: cover;
+        img {
+            height: 100%;
+            width: 100%;
+            
+        }
+    }
+
+.pargarh_section_2 { 
+    width: 100%;
+    text-align: left;
+    line-height: 2rem;
+
+    img {
+        padding: 2% 7%;
+        float: right;
+    }
+   .p_s_left_text , p {
+       padding: 2% 2%;
+       line-height: 2rem;
+       margin-top : -30px;
+    
+    }
+ 
+
+}
+
+
+}
+
+
+// Expac Png Expac Aus
+
+
+.expac_png_aus_contexts {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    .expac_png_aus_contexts_left {
+        flex:  1;
+        .right_border_style {
+            border-right: 4px solid green;
+            img {
+                
+                height: 200px;
+                width: 200px;
+               
+    
+            }
+        }
+    }
+    .expac_png_aus_contexts_right {
+        flex: 2;
+        text-align: left;
+        color: #707070;
+        font-size: 20px;
+        padding: 0px 30px;
+    }
+
+    .expac_png_aus_contexts_list_view {
+        background: orange;
+        padding: 10px 14px;
+        color: white;
+    }
+    .contact_card {
+        background: #F7F9FB;
+        box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+        border-radius: 4px 4px;
+        margin: 0px 0px;
+        width: 70%;
+  
+        padding: 5% 8%;
+        margin-left: 45px; 
+        text-align: left;
+        h3 {
+            font-size: 20px;
+            color: black;
+        }
+        h4 {
+            font-size: 18px;
+            color: #707070;
+            span {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+      
+     }
+  
+}
+
+
+
+//qps divisions 
+.qps_contexts {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    .qps_contexts_left {
+        flex:  1;
+        .right_border_style {
+            border-right: 4px solid green;
+            img {
+                
+                height: 200px;
+                width: 200px;
+               
+    
+            }
+        }
+    }
+    .qps_contexts_right {
+        flex: 2;
+        text-align: left;
+        color: #707070;
+        font-size: 20px;
+        padding: 0px 30px;
+    }
+
+    .expac_png_aus_contexts_list_view {
+        background: orange;
+        padding: 10px 14px;
+        color: white;
+    }
+    .contact_card {
+        background: #F7F9FB;
+        box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2);
+        border-radius: 4px 4px;
+        margin: 0px 0px;
+        width: 70%;
+  
+        padding: 5% 8%;
+        margin-left: 45px; 
+        text-align: left;
+        h3 {
+            font-size: 20px;
+            color: black;
+        }
+        h4 {
+            font-size: 18px;
+            color: #707070;
+            span {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+      
+     }
+  
+}
+
+
+
+// All power service
+.sub_nav_bar { 
+    border: 1px solid black;
+    background:  rgb(78, 78, 78);
+    color: white;
+    font-weight: 700;
+    ul { 
+        display:  flex;
+        align-items: center;
+        list-style: none;
+    }
+    li {
+         margin: auto;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
+// extra sass for ourteam page
+
+.our_team_card_list { 
+    height:  51.999vh;
+    
+ 
+    .meet_our_team_ourteam {
+            display: flex;
+            border: 0px solid #c3c3c3;
+            display: -webkit-flex; /* Safari */
+            -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+            display: flex;
+            flex-wrap: wrap;
+
+
+        
+        //padding: 15px 35px;
+    }
+}

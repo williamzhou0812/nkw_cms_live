@@ -1,0 +1,61 @@
+.button {
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+   // visibility: hidden;
+
+}
+input {
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+   // visibility: hidden;
+}
+.inputLogo{
+    visibility: hidden;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.timer {
+    padding: 4px 4px;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+.nav li {
+    text-decoration: none;
+    padding: 14px 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width:  100%;
+}
+
+
+.header_contanter {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: 0px !important;
+    max-width: 1080px;
+    border: 23px solid black;
+
+}
+
+.uploadButton {
+    button {
+        height: 30px;
+        margin-left: 10px;
+        border-inline-end-style:none;
+        font-size: 12px;
+    }
+}
+

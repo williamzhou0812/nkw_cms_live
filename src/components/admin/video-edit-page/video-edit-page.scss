@@ -1,0 +1,22 @@
+@import '~video-react/styles/scss/video-react';
+
+
+.video_warper {
+    width: 100vw !important;
+    height: 62.99vh;
+}
+.vidoes_list {
+    border: '1px solid black';
+    display: flex;
+    :focus {
+        outline: none;
+    }
+    div {
+        width: 340px;
+        margin: auto;
+        padding: 8% 2%;
+        
+    }
+
+}
+ 

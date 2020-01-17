@@ -1,0 +1,23 @@
+// Image lirbry scss 
+
+.main_contenter { 
+    text-align: left;
+    font-size: 18px; 
+    padding: 20px 20px;
+
+    input {
+        min-width: 120px;
+    }
+
+}
+.imgCard { 
+    max-width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-size: cover;
+    img {
+        width: 400px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,20 @@
+.contact_our_team_main {
+
+    text-align: left;
+    padding: 3% 3%;
+    background: #F4F4F4;
+    // height: 50vh;
+    .meet_our_team {
+        border: 0px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+hr {
+ border: 3px solid #4f990f;
+}
